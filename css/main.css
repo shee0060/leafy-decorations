@@ -53,6 +53,14 @@ html {
   background-position: .75em 11em;
 }
 
+@media only screen and (min-width: 38em) {
+
+  .banner-content {
+    background-position: .75em 10em;
+    padding-top: 16;
+  }
+
+}
 @media only screen and (min-width: 60em) {
 
   .logo {

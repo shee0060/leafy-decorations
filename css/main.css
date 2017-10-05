@@ -3,7 +3,7 @@ html {
 }
 
 .masthead {
-  background: #588477;
+  background-color: #588477;
   color: #fff;
   background-image: url("../images/leaf-bg.svg");
   background-repeat: repeat;
@@ -29,11 +29,19 @@ html {
 }
 
 .nav a:hover {
-  background-color: #145b1d;
+  background-image: url("../images/leaf-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 64px;
+  background-color: #fff;
+  color: #145b1d;
 }
 
 .banner {
-  background-image: url("../images/banner.jpg");
+  color: #fff;
+  background-image: url("..images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 3px solid #2d5a4d;
 }
 
 .banner-content {

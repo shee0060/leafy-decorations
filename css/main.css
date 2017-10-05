@@ -48,7 +48,7 @@ html {
 .banner-content {
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
-  padding-top: 18.50em;
+  padding-top: 18.5em;
   background-size: 100px;
   background-position: .75em 11em;
 }
@@ -65,6 +65,11 @@ html {
 
   .banner {
     background-position: bottom;
+  }
+
+  .banner-content {
+    background-position: .75em 10em;
+    padding-top: 15em;
   }
 
 }

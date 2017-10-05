@@ -38,7 +38,7 @@ html {
 
 .banner {
   color: #fff;
-  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0) 70%, rgba(16, 52, 41, .8) ), url("../images/banner.jpg");
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0) 70%, rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -49,6 +49,8 @@ html {
   background-image: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
   padding-top: 15em;
+  background-size: 100px;
+  background-position: .75em 11em;
 }
 
 @media only screen and (min-width: 60em) {

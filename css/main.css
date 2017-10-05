@@ -41,6 +41,7 @@ html {
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   border-bottom: 3px solid #2d5a4d;
 }
 
